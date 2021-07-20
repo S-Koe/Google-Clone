@@ -11,6 +11,7 @@ html {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 6px;
+  margin-top: 1em;
 }
 
 .top-nav a {
@@ -27,6 +28,13 @@ img {
 }
 
 .search {
-  margin: auto;
+  text-align: center;
+  margin-top: 2em;
+}
+
+#input {
+  font-size: 15px;
+  width: 465px;
+  height: 42px;
 }
 /*# sourceMappingURL=style.css.map */
