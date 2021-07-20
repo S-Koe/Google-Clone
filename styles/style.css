@@ -1,30 +1,39 @@
 html {
   font-family: arial, sans-serif;
-  font-size: 14px;
+  font-size: 13px;
+  color: #5f6368;
 }
 
-.top-nav {
+.nav-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   padding: 6px;
   margin-top: 1em;
 }
 
-.top-nav a {
+.nav-wrapper a {
   color: #222;
   text-decoration: none;
-  margin-right: 1.5em;
-  margin-left: 1.5em;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.nav-wrapper a:hover {
+  text-decoration: underline;
+}
+
+.nav-wrapper span {
+  padding: 8px;
 }
 
 img {
   display: block;
   margin: auto;
-  margin-top: 10%;
+  margin-top: 100px;
 }
 
 .search {

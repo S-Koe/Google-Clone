@@ -1,26 +1,32 @@
 html {
     font-family: arial, sans-serif;
-    font-size: 14px;
-    
+    font-size: 13px;   
+    color: #5f6368;
 }
 
-.top-nav {    
+.nav-wrapper {    
     display:flex;
-    justify-content:space-between;
+    justify-content:flex-end;
     padding: 6px;
     margin-top: 1em;
     a {
         color:#222;
         text-decoration: none;
-        margin-right: 1.5em;
-        margin-left: 1.5em;        
+        margin-right: 15px;
+        margin-left: 15px;
+        &:hover {
+            text-decoration: underline;
+        }         
+    }
+    span {
+        padding: 8px;
     }
 }
 
 img {
     display: block;
     margin: auto;
-    margin-top: 10%;
+    margin-top: 100px;
 }
 .search {
     text-align:center;
