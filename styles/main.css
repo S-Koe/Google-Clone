@@ -1,0 +1,52 @@
+.nav-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 6px;
+  margin-top: 1em;
+}
+
+.nav-wrapper a {
+  text-decoration: none;
+  margin-right: 15px;
+  margin-left: 15px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.nav-wrapper a:hover {
+  text-decoration: underline;
+}
+
+.nav-wrapper span {
+  padding: 8px;
+  color: #5f6368;
+}
+
+#input {
+  font-size: 15px;
+  width: 465px;
+  height: 42px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html {
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  height: 100vh;
+}
+/*# sourceMappingURL=main.css.map */

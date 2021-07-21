@@ -1,0 +1,19 @@
+.nav-wrapper {    
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+    margin-top: 1em;
+    a {        
+        text-decoration: none;
+        margin-right: 15px;
+        margin-left: 15px;
+        color: rgba(0, 0, 0, 0.87);
+        &:hover {
+            text-decoration: underline;
+        }         
+    }
+    span {
+        padding: 8px;
+        color: #5f6368;
+    }
+}
