@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
          rel="stylesheet">
         <link rel="stylesheet" href="styles\main.css">
         <title>Google Clone</title>
@@ -9,17 +9,18 @@
 
     <body>
 
-        <div class="nav-wrapper">
+        <div class="header">
 
-            <div class="nav-left">
+            <div class="header-left">
                 <a href="#">Über Google</a>
                 <a href="#">Store</a>
             </div>
 
-            <div class="nav-right">
+            <div class="header-right">
                 <a href="#">Gmail</a>
                 <a href="#">Bilder</a>
-                <span class="material-icons-round">apps</span>
+                <a href="#"><span class="material-icons">apps</span></a>
+                <a href="#"><span class="material-icons">account_circle</span></a>
             </div>
 
         </div>
@@ -27,16 +28,23 @@
         <div class="container">
 
             <div class="google-logo">
-                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
             </div>
 
             <div class="search">
+                <span class="material-icons">
+                    search
+                    </span>
                 <input id="input" type="search" size="30" placeholder="Mit Google suchen oder eine URL eingeben">
             </div>
 
             <div class="buttons"> 
                 <input type="submit" value="Google Suche">
                 <input type="submit" value="Auf gut Glück!">
+            </div>
+
+            <div class="language">
+                Google angeboten auf: <a href="#">English</a>
             </div>
 
         </div>

@@ -1,9 +1,13 @@
-@import './components/navigation';
+@import './components/header';
 @import './components/Search';
+@import './components/footer';
+
 html {
     font-family: arial, sans-serif;
     font-size: 14px;   
     height: 100vh;
+    margin-left: 17px;
+    
 }
 
 

@@ -1,0 +1,23 @@
+.header {    
+    display: flex;
+    justify-content: space-between;      
+    margin-top: 15px;
+    align-items: center;
+    a {        
+        text-decoration: none;            
+        color: rgba(0, 0, 0, 0.87);
+        margin-right: 17px;
+        &:hover {
+            text-decoration: underline;
+        }         
+    }
+    .material-icons {
+        color: #5f6368;
+    }    
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    
+} 
