@@ -1,16 +1,3 @@
-.header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin-top: 15px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 .header a {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.87);
@@ -21,31 +8,8 @@
   text-decoration: underline;
 }
 
-.header .material-icons {
+.header a .material-icons {
   color: #5f6368;
-}
-
-.header-right {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-top: 215px;
 }
 
 .search {
@@ -59,7 +23,7 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   border: 1px solid #dfe1e5;
-  padding: 5px 8px 0 16px;
+  padding: 5px 16px 0 16px;
   height: 44px;
   width: 560px;
   margin: 20px auto;
@@ -94,5 +58,41 @@ html {
   font-size: 14px;
   height: 100vh;
   margin-left: 17px;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 215px;
 }
 /*# sourceMappingURL=main.css.map */
