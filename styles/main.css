@@ -50,7 +50,31 @@
 }
 
 .buttons {
-  margin-top: 40px;
+  margin-top: 10px;
+}
+
+.buttons input {
+  background-color: #f8f9fa;
+  color: #3c4043;
+  border: none;
+  border-radius: 4px;
+  padding: 0 16px;
+  height: 36px;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+.language {
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+.language a {
+  text-decoration: none;
+}
+
+.language a:hover {
+  text-decoration: underline;
 }
 
 html {
