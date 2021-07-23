@@ -51,17 +51,24 @@
 
 .buttons {
   margin-top: 10px;
+  position: relative;
 }
 
 .buttons input {
   background-color: #f8f9fa;
   color: #3c4043;
-  border: none;
+  border: 1px solid transparent;
   border-radius: 4px;
   padding: 0 16px;
   height: 36px;
-  margin-right: 4px;
-  margin-left: 4px;
+  margin: 11px 8px;
+  cursor: pointer;
+}
+
+.buttons input:hover {
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  border: 1px solid #dadce0;
 }
 
 .language {
