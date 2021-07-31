@@ -127,6 +127,17 @@
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  padding: 15px;
+}
+
+.CO2 img {
+  height: 14px;
+  width: 12.25px;
+  margin-right: 6px;
+}
+
+.CO2 a {
+  padding: 0;
 }
 
 .right-footer {
@@ -191,6 +202,9 @@ html {
   bottom: 0;
   left: 0;
   right: 0;
+}
+
+.country {
   font-size: 15px;
 }
 /*# sourceMappingURL=main.css.map */

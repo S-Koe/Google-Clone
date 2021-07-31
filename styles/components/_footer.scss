@@ -26,6 +26,15 @@
 .CO2 {
     display: flex;
     flex-wrap: wrap;
+    padding: 15px;
+    img {
+        height: 14px;
+        width: 12.25px;
+        margin-right: 6px;
+    }
+    a {
+        padding: 0;
+    }
 }
 
 .right-footer {
