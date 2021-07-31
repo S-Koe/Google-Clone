@@ -11,11 +11,28 @@
     }
 }
 
-.footer-links{
+.footer-wrapper {
     padding: 0 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;    
+    flex-wrap: wrap;  
 }
+
+.left-footer {
+    display: flex;
+    flex-wrap: wrap;   
+}
+
+.CO2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.right-footer {
+    display: flex;
+    flex-wrap: wrap;   
+}
+
 .country {
     padding: 15px 30px;
     color: rgba(0,0,0,.54);
