@@ -1,21 +1,21 @@
 html {
     font-family: arial, sans-serif;
     font-size: 14px;   
-    height: 100vh;
-    margin-left: 17px;
+    height: 100vh;    
     
 }
 
 .header {    
     display: flex;
     justify-content: space-between;      
-    margin-top: 15px;
+   
     align-items: center;    
 }
 
 .header-right {
     display: flex;
     align-items: center;    
+    font-size: 13px;
 } 
 
 .container { 
@@ -23,4 +23,11 @@ html {
     flex-direction: column;   
     align-items: center;    
     margin-top: 215px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;    
+    font-size: 15px;
 }

@@ -1,0 +1,25 @@
+.footer {
+    background-color: #f2f2f2;
+    width: 100%;
+    a{
+    padding: 15px;    
+    color: #8e9092;
+    text-decoration: none;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}
+
+.footer-links{
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.country {
+    padding: 15px 30px;
+    color: rgba(0,0,0,.54);
+    border-bottom: 1px solid #dadce0;
+   
+}
+
