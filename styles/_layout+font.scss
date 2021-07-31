@@ -25,6 +25,12 @@ html {
     margin-top: 215px;
 }
 
+.textfield {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .footer {
     position: absolute;
     bottom: 0;
