@@ -21,12 +21,16 @@
 .left-footer {
     display: flex;
     flex-wrap: wrap;   
+    order: 1;
 }
 
 .CO2 {
     display: flex;
     flex-wrap: wrap;
     padding: 15px;
+    position: relative;
+    left: -30px;
+    order: 2;
     img {
         height: 14px;
         width: 12.25px;
@@ -40,6 +44,7 @@
 .right-footer {
     display: flex;
     flex-wrap: wrap;   
+    order: 3;
 }
 
 .country {

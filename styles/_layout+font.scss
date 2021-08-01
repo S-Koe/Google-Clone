@@ -2,8 +2,13 @@ html {
     font-family: arial, sans-serif;
     font-size: 14px;  
     margin: 0;
-    padding: 0; 
-       
+    padding: 0;        
+}
+
+body {
+    display: flex;
+    flex-direction: column;    
+    height: 100%;
 }
 
 .header {    
@@ -21,8 +26,9 @@ html {
 .container { 
     display: flex;
     flex-direction: column;   
-    align-items: center;    
-    margin-top: 215px;
+    align-items: center;  
+    position: relative;
+    top: 200px;             
 }
 
 .textfield {
@@ -40,4 +46,24 @@ html {
 
 .country {
     font-size: 15px;
+}
+
+@media only screen and (max-width: 1210px) {
+    .CO2 {
+        order: 0;
+        width: 100%;
+        justify-content: center;
+    }
+    .footer-wrapper {
+        justify-content: space-evenly;
+    }
+    .container {
+        top: 70px;
+    }
+    .textfield {
+        width: 400px;
+    }
+    .language {
+        margin-top: 2px;
+    }
 }
