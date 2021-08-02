@@ -1,13 +1,16 @@
 .header a {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.87);
-  margin-left: 15px;
   margin-right: 5px;
-  padding: 6px;
+  padding: 5px;
 }
 
 .header a:hover {
   text-decoration: underline;
+}
+
+.header a:first-of-type {
+  margin-left: 15px;
 }
 
 .material-icons {
@@ -207,8 +210,10 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: relative;
-  top: 200px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 80vh;
 }
 
 .textfield {
@@ -255,8 +260,12 @@ body {
   .textfield {
     width: 400px;
   }
-  .language {
-    margin-top: 2px;
+}
+
+@media only screen and (max-width: 400px) {
+  overflow: scroll;
+  .textfield {
+    width: 300px;
   }
 }
 /*# sourceMappingURL=main.css.map */

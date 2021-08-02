@@ -1,14 +1,16 @@
 .header a {        
     text-decoration: none;            
-    color: rgba(0, 0, 0, 0.87);  
-    margin-left: 15px; 
+    color: rgba(0, 0, 0, 0.87);      
     margin-right: 5px;   
-    padding: 6px;  
+    padding: 5px;  
         &:hover {
         text-decoration: underline;
         }       
 }
 
+.header a:first-of-type {    
+    margin-left: 15px;     
+}
 
 .material-icons {
     color: #5f6368;

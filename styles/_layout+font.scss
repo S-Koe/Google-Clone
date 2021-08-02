@@ -26,9 +26,10 @@ body {
 .container { 
     display: flex;
     flex-direction: column;   
-    align-items: center;  
-    position: relative;
-    top: 200px;             
+    align-items: center; 
+    justify-content: center;    
+    height: 80vh;
+             
 }
 
 .textfield {
@@ -63,7 +64,11 @@ body {
     .textfield {
         width: 400px;
     }
-    .language {
-        margin-top: 2px;
+    
+}
+@media only screen and (max-width: 400px) {
+    overflow: scroll;
+    .textfield {
+        width: 300px;
     }
 }
