@@ -2,13 +2,14 @@
     font-family: arial, sans-serif;
     font-size: 14px;  
     margin: 0;
-    padding: 0;        
+    
+          
 }
 
 body {
+    
     display: flex;
-    flex-direction: column;    
-    height: 100%;
+    flex-direction: column;     
 }
 
 .header {    
@@ -32,7 +33,7 @@ body {
     flex-direction: column;   
     align-items: center; 
     justify-content: center;    
-    height: 80vh;
+    height: 83.5vh;
              
 }
 
@@ -68,11 +69,12 @@ body {
 }
 @media only screen and (max-width: 440px) {   
     .header a:first-of-type {
-        margin-left: 5px;
+        margin-left: 1px;
         
     }
     .textfield {
         width: 300px;       
     }
+   
     
 }
