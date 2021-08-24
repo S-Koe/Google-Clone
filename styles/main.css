@@ -221,7 +221,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 83.5vh;
+  min-height: calc(100vh - 155px);
 }
 
 .textfield {
